@@ -1,0 +1,104 @@
+/*----------
+   Reset 
+-----------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/*----------
+   Debug 
+-----------*/
+.debug header {
+    background-color:#addBe6;
+}
+
+.debug .header-top {
+    background-color: #daa520;
+    height: 40px;
+}
+
+.debug .main-row {
+    height: 400px;
+}
+
+.debug .col-big {
+    background-color: #1e90ff;
+
+}
+.debug .col-small {
+    background-color: #ffc0cb;
+
+}
+
+
+/*----------
+   Common 
+-----------*/
+.container {
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+/*----------
+   Header
+-----------*/
+header {
+    padding: 20px 0;
+
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-style: dashed;
+    border-width: 1px;
+    margin-bottom: 30px;
+}
+
+.header-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    min-height: 400px;
+}
+
+.banner {
+    background-color: fuchsia;
+    width: 45%;
+    height: 300px;
+    border-style: dashed;
+    border-width: 1px;
+}
+
+/*----------
+    Main 
+-----------*/
+
+section {
+    padding: 40px 0;
+
+}
+
+.main-row {
+    display: flex;
+}
+
+.col-big {
+    width: 60%;
+    border-style: dashed;
+    border-width: 1px;
+}
+
+.col-small {
+    width: 40%;
+    border-style: dashed;
+    border-width: 1px;
+}
+
+/*----------
+    Footer
+-----------*/
