@@ -32,6 +32,10 @@
 
 }
 
+.debug .big-green {
+    background-color: green;
+}
+
 
 /*----------
    Common 
@@ -81,7 +85,13 @@ header {
 section {
     padding: 40px 0;
 
+
 }
+
+section:nth-child(2n){
+    background-color: lightgray;
+}
+
 
 .main-row {
     display: flex;
@@ -95,6 +105,13 @@ section {
 
 .col-small {
     width: 40%;
+    border-style: dashed;
+    border-width: 1px;
+}
+
+.big-green {
+    width: 100%;
+    height: 600px;
     border-style: dashed;
     border-width: 1px;
 }
