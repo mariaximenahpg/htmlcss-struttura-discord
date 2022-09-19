@@ -159,6 +159,8 @@ section:nth-child(2n){
     padding: 1px 40px;
     align-content: center;
     border-style: dashed;
+}
 
-
+#footer-section {
+    background-color: white;
 }
